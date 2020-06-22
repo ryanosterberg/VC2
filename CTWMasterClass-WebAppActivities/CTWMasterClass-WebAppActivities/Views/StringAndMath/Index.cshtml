@@ -1,0 +1,13 @@
+﻿@model int
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Last Name and Age</h2>
+<div>
+    <form action="DifferenceCalc" method="post">
+        <p>Enter your last name: <input name="lastName" type="text" /></p>
+        <p>Enter your age: <input name="age" type="number" /></p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>             The difference is: @Model</p>
+</div>
