@@ -168,11 +168,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DatesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HowOldAreYouController.cs" />
     <Compile Include="Controllers\MagicNumberController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SquareANumberController.cs" />
     <Compile Include="Controllers\StringActivityController.cs" />
+    <Compile Include="Controllers\StringAndMathController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -245,6 +248,9 @@
     <Content Include="Views\StringActivity\Index.cshtml" />
     <Content Include="Views\SquareANumber\Index.cshtml" />
     <Content Include="Views\MagicNumber\Index.cshtml" />
+    <Content Include="Views\Dates\Index.cshtml" />
+    <Content Include="Views\StringAndMath\Index.cshtml" />
+    <Content Include="Views\HowOldAreYou\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

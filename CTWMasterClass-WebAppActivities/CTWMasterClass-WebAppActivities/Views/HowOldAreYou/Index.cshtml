@@ -1,0 +1,12 @@
+﻿@model int
+@{
+    ViewBag.Title = "Index";
+}
+<h2>HowOldAreYou</h2>
+<div>
+    <form action="birthdayToString" method="post">
+        <p>Enter your birthday: <input name="inputBirthday" type="date" /></p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>            Your age is: @Model</p>
+</div>

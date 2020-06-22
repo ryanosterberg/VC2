@@ -1,0 +1,14 @@
+﻿@model int
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Dates</h2>
+<div>
+    <form action="DateMagic" method="post">
+        <p>Enter your age: <input name="age" type="int" /></p>
+        <p>Enter your last name: <input name="lastName" type="string"</p>
+        <input name="submit" type="submit" />
+    </form>
+    <p>            The absolute value of the difference in letters of your last name and your age is: @Model</p>
+</div>
+s
